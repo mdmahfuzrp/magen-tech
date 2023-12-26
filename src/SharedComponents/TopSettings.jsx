@@ -6,7 +6,7 @@ const TopSettings = () => {
     <div className="border-b border-opacity-15">
       <div className="max-w-[1500px] px-5 sm:px-8 flex items-center justify-between">
         <div className="flex relative items-center gap-8">
-          <div id="language" className="flex py-3 
+          <div id="language" className="flex py-2 
            items-center gap-[2.5rem]">
             <div className="flex cursor-pointer gap-1 items-center justify-center">
               <img
@@ -75,7 +75,7 @@ const TopSettings = () => {
           
           <div className="line absolute left-[108px] w-[1px] h-[10px] bg-slate-300"></div>
 
-          <div id="language" className="flex py-3 items-center gap-[2.5rem]">
+          <div id="language" className="flex py-2 items-center gap-[2.5rem]">
             <div className="flex cursor-pointer gap-1 items-center justify-center">
               <p className="text-[12px] uppercase text-opacity font-medium">
                 USD 
@@ -100,16 +100,16 @@ const TopSettings = () => {
         </div>
         
         <div className="flex relative items-center gap-8">
-          <div id="language" className="flex py-3 
+          <div id="language" className="flex py-2 
            items-center gap-[2.5rem]">
             <Link className="lg:flex hidden hover:text-special text-gray-500 items-center gap-1"><FaTruck className="rotate-y ml-[1px] text-[14px]" /> <span className="text-[12px]  font-medium capitalize">Track Your Order</span></Link>
           </div>
           
           <div className="line hidden lg:flex absolute left-[137px] w-[1px] h-[10px] bg-slate-300"></div>
 
-          <div id="language" className="flex py-3 items-center gap-2">
+          <div id="language" className="flex py-2 items-center gap-2">
             <Link className="flex hover:text-special text-gray-500 items-center gap-1"><FaUser className="rotate-y  ml-[1px] text-[12px]" /><span className="text-[12px]  font-medium capitalize">Login</span></Link>
-            <span className="text-[12px]  font-medium lowercase">or</span>
+            <span className="text-[12px] text-gray-500 font-medium lowercase">or</span>
             <Link><span className="text-[12px] hover:text-special text-gray-500 tracking-wider font-medium capitalize">Register</span></Link>
           </div>
         </div>
