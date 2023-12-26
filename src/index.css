@@ -24,3 +24,23 @@ body {
 #language-item:hover{
   display: flex;
 }
+
+
+/* bottom nav */
+#category-items{
+  transition: .5s ease-in-out;
+  transition-property: display;
+}
+#categories:hover #category-items{
+  top: 39px;
+  display: block;
+  opacity: 1;
+}
+
+/* top tags */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px 20px; /* Space between items */
+  max-width: 100%; /* Set maximum width */
+}

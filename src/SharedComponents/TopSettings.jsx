@@ -6,7 +6,7 @@ const TopSettings = () => {
     <div className="border-b border-opacity-15">
       <div className="max-w-[1500px] px-5 sm:px-8 flex items-center justify-between">
         <div className="flex relative items-center gap-8">
-          <div id="language" className="flex py-2 
+          <div id="language" className="flex py-[10px] cursor-pointer 
            items-center gap-[2.5rem]">
             <div className="flex cursor-pointer gap-1 items-center justify-center">
               <img
@@ -23,7 +23,7 @@ const TopSettings = () => {
 
             <ul
               id="language-item"
-              className="hidden flex-col w-full items-start gap-[6px] absolute bg-white top-[42px] py-3 px-3 shadow-basic"
+              className="hidden flex-col w-full items-start gap-[6px] absolute bg-white top-[39px] py-3 px-3 shadow-basic"
             >
               <li className="flex hover:text-special text-opacity cursor-pointer gap-1 items-center justify-center">
                 <img
@@ -75,7 +75,7 @@ const TopSettings = () => {
           
           <div className="line absolute left-[108px] w-[1px] h-[10px] bg-slate-300"></div>
 
-          <div id="language" className="flex py-2 items-center gap-[2.5rem]">
+          <div id="language" className="flex py-[10px] cursor-pointer items-center gap-[2.5rem]">
             <div className="flex cursor-pointer gap-1 items-center justify-center">
               <p className="text-[12px] uppercase text-opacity font-medium">
                 USD 
@@ -87,10 +87,9 @@ const TopSettings = () => {
 
             <ul
               id="language-item"
-              className="hidden flex-col w-full items-start gap-[6px] absolute bg-white top-[42px] py-3 px-3 shadow-basic"
+              className="hidden flex-col w-full items-start gap-[6px] absolute bg-white top-[39px] py-3 px-3 shadow-basic"
             >
               <li className="flex cursor-pointer hover:text-special text-opacity gap-1 items-center justify-center">
-                
                 <p className="text-[12px] uppercase font-medium">
                   EUR - <span className="capitalize">Euro</span>
                 </p>
