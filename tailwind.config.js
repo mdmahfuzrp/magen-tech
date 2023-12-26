@@ -14,6 +14,9 @@ export default {
       },
       boxShadow: {
         basic: '0 0 4px rgba(0, 0, 0, 0.15)',
+      },
+      fontFamily: {
+        poppins: "'Poppins', sans-serif"
       }
     },
   },
