@@ -1,0 +1,65 @@
+.product--image {
+  width: 100%;
+  height: 16em;
+  object-fit: cover;
+}
+
+.card {
+  max-width: 350px;
+  margin: auto 1rem;
+  text-align: center;
+  font-family: arial;
+  cursor: pointer;
+}
+.card:first-child {
+  margin-left: 0;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.react-multiple-carousel__arrow {
+  display: none;
+}
+.react-multi-carousel-dot-list{
+    display: none;
+}
+#hoverHide{
+    opacity: 1;
+    transition: .1s ease-in-out;
+}
+#flashSaleHoverParent:hover #hoverHide {
+    opacity: 0;
+  }
+#flashSaleImgHover{
+    opacity: 0;
+    transition: .1s ease-in-out;
+}
+#flashSaleHoverParent:hover #flashSaleImgHover {
+  opacity: 1;
+}
+#hoverButton{
+    opacity: 0;
+    transition: .1s ease-in-out;
+}
+#flashSaleHoverParent:hover #hoverButton {
+    opacity: 1;
+  }
+
+@media screen and (max-width: 980px) {
+  .react-multiple-carousel__arrow {
+    display: block;
+  }
+}
