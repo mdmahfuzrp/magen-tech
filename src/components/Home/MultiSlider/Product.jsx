@@ -14,20 +14,24 @@ export default function Product(props) {
         {props.discount}%
       </div>
       <div id="flashSaleHoverParent" className="relative">
+        <div className="p-2">
         <img
-          className="product--image w-full h-ful object-cover"
+          className="product--image max-w-[100%]"
           src={props.url}
           alt="product image"
         />
+        </div>
         <div id="hoverHide">
           <img src={starImg} className="w-fit mx-auto mb-[6px]" alt="" />
           <h2 className="text-[14px] text-primary font-semibold">
             {props.name.slice(0, 25)}...
           </h2>
         </div>
-<div id="hoverButton">
-    <div className="text-[12px] uppercase hover:bg-special duration-100 bg-secondary text-white py-2 rounded-full w-fit px-7 mx-auto absolute bottom-[3px] left-[20%]">Add To Cart</div>
-</div>
+        <div id="hoverButton">
+          <div className="text-[12px] uppercase hover:bg-special duration-100 bg-secondary text-white py-2 rounded-full w-fit px-7 mx-auto absolute bottom-[3px] left-[20%]">
+            Add To Cart
+          </div>
+        </div>
         <div
           id="flashSaleImgHover"
           className="absolute  bg-[#0000002a] top-0 left-0 bottom-[60px] right-0 flex items-center justify-center gap-3"
@@ -49,9 +53,12 @@ export default function Product(props) {
           ${props.discountPrice}
         </del>
       </p>
-      <div>
-        <Countdown />
-      </div>
+
+      {props.countdown && (
+        <div>
+          <Countdown />
+        </div>
+      )}
     </div>
   );
 }

@@ -1,0 +1,28 @@
+#hotBrands .swiper {
+    width: 800px;
+  }
+  #hotBrands .swiper-slide {
+    height: 300px;
+    background: #882525;
+    line-height: 300px;
+    text-align: center;
+  }
+  #hotBrands .swiper-slide:nth-child(2) {
+    background: #8acc7d;
+  }
+  #hotBrands .swiper-slide:nth-child(3) {
+    background: #b7cc7d;
+  }
+  #hotBrands .swiper-slide:nth-child(4) {
+    background: #9eb75c;
+  }
+  #hotBrands .swiper-slide:nth-child(5) {
+    background: #7da8cc;
+  }
+  #hotBrands .swiper-slide:nth-child(6) {
+    background: #96cc7d;
+  }
+  #hotBrands .swiper-slide:nth-child(7) {
+    background: #cc7dae;
+  }
+  

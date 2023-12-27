@@ -1,11 +1,10 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Product from "./Product";
-import { productData, responsive } from "./data";
 import './MultiSlider.css'
 
-const MultiSlider = () => {
-  const product = productData.map((item, index) => (
+const MultiSlider = ({countdown, data, responsive}) => {
+  const product = data.map((item, index) => (
     <Product
       key={index}
       name={item.name}
@@ -14,6 +13,7 @@ const MultiSlider = () => {
       description={item.description}
       discountPrice={item.discountPrice}
       discount={item.discount}
+      countdown={countdown}
     />
   ));
   return (

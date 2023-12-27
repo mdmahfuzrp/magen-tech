@@ -1,6 +1,6 @@
 import SectionHeader from "../../SharedComponents/SectionHeader";
-import Options from "../../utils/Options/Optionns";
 import MultiSlider from "./MultiSlider/MultiSlider";
+import { productData, responsive } from "./MultiSlider/data";
 
 const FlashSale = () => {
   const options = [
@@ -14,7 +14,7 @@ const FlashSale = () => {
   return (
     <div className="max-w-[1500px] px-5 sm:px-8">
       <SectionHeader options={options} title="Flash Sale" />
-      <MultiSlider />
+      <MultiSlider countdown={true} data={productData} responsive={responsive} />
     </div>
   );
 };
