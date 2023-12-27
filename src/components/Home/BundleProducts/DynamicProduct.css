@@ -1,0 +1,15 @@
+#dynamicHoverHide{
+    opacity: 1;
+    transition: .1s ease-in-out;
+}
+#dynamicCard:hover #dynamicHoverHide{
+    opacity: 0;
+}
+
+#dynamicHoverButton{
+    opacity: 0;
+    transition: .1s ease-in-out;
+}
+#dynamicCard:hover #dynamicHoverButton{
+    opacity: 1;
+}
