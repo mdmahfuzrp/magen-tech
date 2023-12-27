@@ -17,7 +17,7 @@ const BottomNavbar = () => {
           <IoIosArrowDown />
         </div>
 
-        <ul id="category-items" className="absolute duration-200 hidden opacity-0 left-[-1px] border border-t-2 border-t-special right-[-1px] top-[58px] bg-white">
+        <ul id="category-items" className="absolute z-[99] duration-200 hidden opacity-0 left-[-1px] border border-t-2 border-t-special right-[-1px] top-[58px] bg-white">
           <li className="flex border-l-[2px] border-transparent hover:border-special cursor-pointer py-[10px] px-4 hover:text-special text-opacity items-center gap-1">
             <GiWashingMachine size={15} className="text-gray-500" />
             <p className="text-[13px] font-medium">Electronics</p>
