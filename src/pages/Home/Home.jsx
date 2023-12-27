@@ -10,7 +10,7 @@ import SuperDealAd from "../../components/SuperDealAd";
 const Home = () => {
     
     return (
-        <div>
+        <div className="mb-10">
             <TopSettings />
             <TopNavbar />
             <BottomNavbar />
