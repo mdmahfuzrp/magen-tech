@@ -74,7 +74,7 @@ const ElectricsDoubleSlider = () => {
                 </div>
                 <div className="mt-2">
                   <img className="w-[60px] ml-[-5px]" src={starImg} alt="" />
-                  <p className="text-[14px] font-semibold">
+                  <p className="text-[14px] font-semibold my-[6px]">
                     HP Elite Computer C2D...
                   </p>
                   <h3 className="text-[18px] font-bold text-special">$1.60</h3>
@@ -112,7 +112,7 @@ const ElectricsDoubleSlider = () => {
                 </div>
                 <div className="mt-2">
                   <img className="w-[60px] ml-[-5px]" src={starImg} alt="" />
-                  <p className="text-[14px] font-semibold">
+                  <p className="text-[14px] font-semibold my-[6px]">
                     HP Elite Computer C2D...
                   </p>
                   <h3 className="text-[18px] font-bold text-special">$1.60</h3>
@@ -154,7 +154,7 @@ const ElectricsDoubleSlider = () => {
                 </div>
                 <div className="mt-2">
                   <img className="w-[60px] ml-[-5px]" src={starImg} alt="" />
-                  <p className="text-[14px] font-semibold">
+                  <p className="text-[14px] font-semibold my-[6px]">
                     HP Elite Computer C2D...
                   </p>
                   <h3 className="text-[18px] font-bold text-special">$1.60</h3>
@@ -193,7 +193,7 @@ const ElectricsDoubleSlider = () => {
                 </div>
                 <div className="mt-2">
                   <img className="w-[60px] ml-[-5px]" src={starImg} alt="" />
-                  <p className="text-[14px] font-semibold">
+                  <p className="text-[14px] font-semibold my-[6px]">
                     HP Elite Computer C2D...
                   </p>
                   <h3 className="text-[18px] font-bold text-special">$1.60</h3>
@@ -237,7 +237,7 @@ const ElectricsDoubleSlider = () => {
                 </div>
                 <div className="mt-2">
                   <img className="w-[60px] ml-[-5px]" src={starImg} alt="" />
-                  <p className="text-[14px] font-semibold">
+                  <p className="text-[14px] font-semibold my-[6px]">
                     HP Elite Computer C2D...
                   </p>
                   <h3 className="text-[18px] font-bold text-special">$1.60</h3>
@@ -275,7 +275,7 @@ const ElectricsDoubleSlider = () => {
                 </div>
                 <div className="mt-2">
                   <img className="w-[60px] ml-[-5px]" src={starImg} alt="" />
-                  <p className="text-[14px] font-semibold">
+                  <p className="text-[14px] font-semibold my-[6px]">
                     HP Elite Computer C2D...
                   </p>
                   <h3 className="text-[18px] font-bold text-special">$1.60</h3>
@@ -317,7 +317,7 @@ const ElectricsDoubleSlider = () => {
                 </div>
                 <div className="mt-2">
                   <img className="w-[60px] ml-[-5px]" src={starImg} alt="" />
-                  <p className="text-[14px] font-semibold">
+                  <p className="text-[14px] font-semibold my-[6px]">
                     HP Elite Computer C2D...
                   </p>
                   <h3 className="text-[18px] font-bold text-special">$1.60</h3>
@@ -354,7 +354,7 @@ const ElectricsDoubleSlider = () => {
                 </div>
                 <div className="mt-2">
                   <img className="w-[60px] ml-[-5px]" src={starImg} alt="" />
-                  <p className="text-[14px] font-semibold">
+                  <p className="text-[14px] font-semibold my-[6px]">
                     HP Elite Computer C2D...
                   </p>
                   <h3 className="text-[18px] font-bold text-special">$1.60</h3>

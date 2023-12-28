@@ -1,14 +1,14 @@
 import React from "react";
 import Options from "../utils/Options/Optionns";
 
-const SectionHeader = ({ title, options, background = false }) => {
+const SectionHeader = ({ title, options=[], visible=true, small=false, background = false }) => {
   return (
     <div className={`flex border-b-2 my-6 mt-8 ${background && 'border-special'} items-center justify-between`}>
       <div className="w-fit relative">
         <h1
           className={`${
             background && "bg-special rounded-t-md px-2  text-white"
-          } py-[5px] text-[18px] font-bold  border-special uppercase`}
+          } py-[5px] ${small ? 'text-[14px] mt-[6px]': 'text-[18px]'} font-bold  border-special uppercase`}
         >
           {title}
         </h1>
@@ -30,7 +30,7 @@ const SectionHeader = ({ title, options, background = false }) => {
       </ul>
 
       <div className="flex md:hidden pb-1">
-        <Options options={options} />
+        <Options options={options} visible={visible} />
       </div>
     </div>
   );

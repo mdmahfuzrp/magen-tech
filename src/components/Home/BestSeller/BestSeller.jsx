@@ -13,6 +13,8 @@ import starImg from "../../../assets/images/star.png";
 
 // custom css connection
 import "./BestSeller.css";
+import Options from "../../../utils/Options/Optionns";
+import SectionHeader from "../../../SharedComponents/SectionHeader";
 
 const bestSellerData = [
   {
@@ -51,25 +53,37 @@ const bestSellerData = [
     discountPrice: "59.00",
     description: "Some text about the product..",
   },
+  {
+    id: 5,
+    imageurl: "https://i.ibb.co/wMnK2Yj/4.jpg",
+    name: "The Wonder and Science of Sound",
+    price: "50.00",
+    discount: -15,
+    discountPrice: "59.00",
+    description: "Some text about the product..",
+  },
 ];
 
 const BestSeller = () => {
   return (
-    <div id="sideSlider">
+    <div id="bestSeller" className=" flex flex-col relative">
       <Swiper
         spaceBetween={30}
         pagination={{
           clickable: true,
         }}
         modules={[Pagination]}
-        className="mySwiper"
+        className="mySwiper relative"
       >
+        <div className="w-full absolute top-0 z-[9]">
+          <SectionHeader title="best seller" visible={false} small={true} />
+        </div>
         <SwiperSlide>
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-4 w-full">
             {bestSellerData.map((data) => (
               <div
                 key={data.id}
-                className="flex items-center justify-center gap-2"
+                className="flex items-center justify-start w-full gap-5"
               >
                 <div>
                   <img src={data?.imageurl} className="max-w-[70px]" alt="" />
@@ -92,11 +106,11 @@ const BestSeller = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-4 w-full">
             {bestSellerData.map((data) => (
               <div
                 key={data.id}
-                className="flex items-center justify-center gap-2"
+                className="flex items-center justify-start w-full gap-5"
               >
                 <div>
                   <img src={data?.imageurl} className="max-w-[70px]" alt="" />
@@ -119,11 +133,11 @@ const BestSeller = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-4 w-full">
             {bestSellerData.map((data) => (
               <div
                 key={data.id}
-                className="flex items-center justify-center gap-2"
+                className="flex items-center justify-start w-full gap-5"
               >
                 <div>
                   <img src={data?.imageurl} className="max-w-[70px]" alt="" />
@@ -145,6 +159,7 @@ const BestSeller = () => {
             ))}
           </div>
         </SwiperSlide>
+        
       </Swiper>
     </div>
   );

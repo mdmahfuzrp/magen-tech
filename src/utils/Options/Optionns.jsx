@@ -1,10 +1,13 @@
 import React from 'react';
 
-const Options = ({ options }) => {
+const Options = ({ options, visible=true }) => {
     console.log(options);
   return (
-    <div className="border ">
-      <select
+    <div className="border bg-transparent">
+      
+      {
+        visible && (
+          <select
         className="h-[32px] px-1 outline-none border-none focus:outline-none focus:border-none uppercase text-[12px] font-medium w-fit font-poppins select select-xs"
       >
         {options?.map((option) => (
@@ -13,6 +16,8 @@ const Options = ({ options }) => {
           </option>
         ))}
       </select>
+        )
+      }
     </div>
   );
 };

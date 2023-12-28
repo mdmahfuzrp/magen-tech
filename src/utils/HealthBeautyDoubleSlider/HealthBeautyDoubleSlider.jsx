@@ -53,7 +53,7 @@ const HealthBeautyDoubleSlider = () => {
               <div className="bg-white mb-5 col-span-1 w-full slideOverlay p-3 flex flex-col xl:flex-row gap-2">
               <div className="relative p-3 flex items-center justify-center">
                   <img
-                    src="http://magento2.magentech.com/themes/sm_shopping/pub/media/catalog/product/cache/e9bcb962a9408957578e6af2c852a0c4/e/l/elec-16_2.jpg"
+                    src="http://magento2.magentech.com/themes/sm_shopping/pub/media/catalog/product/cache/e9bcb962a9408957578e6af2c852a0c4/h/e/hea-8_3.jpg"
                     alt=""
                     className="min-w-[180px]"
                   />
@@ -72,8 +72,8 @@ const HealthBeautyDoubleSlider = () => {
                 </div>
                 <div className="mt-2">
                   <img className="w-[60px] ml-[-5px]" src={starImg} alt="" />
-                  <p className="text-[14px] font-semibold">
-                    HP Elite Computer C2D...
+                  <p className="text-[14px] font-semibold my-[6px]">
+                    Beauty without Cruelty...
                   </p>
                   <h3 className="text-[18px] font-bold text-special">$1.60</h3>
                   <span className="text-[12px] text-opacity">
@@ -91,7 +91,7 @@ const HealthBeautyDoubleSlider = () => {
               <div className="bg-white mb-5 col-span-1 w-full slideOverlay p-3 flex flex-col xl:flex-row gap-2">
               <div className="relative p-3 flex items-center justify-center">
                   <img
-                    src="http://magento2.magentech.com/themes/sm_shopping/pub/media/catalog/product/cache/e9bcb962a9408957578e6af2c852a0c4/e/l/elec-10_3.jpg"
+                    src="http://magento2.magentech.com/themes/sm_shopping/pub/media/catalog/product/cache/e9bcb962a9408957578e6af2c852a0c4/h/e/hea-4_2.jpg"
                     alt=""
                     className="min-w-[180px]"
                   />
@@ -110,8 +110,8 @@ const HealthBeautyDoubleSlider = () => {
                 </div>
                 <div className="mt-2">
                   <img className="w-[60px] ml-[-5px]" src={starImg} alt="" />
-                  <p className="text-[14px] font-semibold">
-                    HP Elite Computer C2D...
+                  <p className="text-[14px] font-semibold my-[6px]">
+                    Beauty without Cruelty...
                   </p>
                   <h3 className="text-[18px] font-bold text-special">$1.60</h3>
                   <span className="text-[12px] text-opacity">
@@ -133,7 +133,7 @@ const HealthBeautyDoubleSlider = () => {
             <div className="bg-white mb-5 col-span-1 w-full slideOverlay p-3 flex flex-col xl:flex-row gap-2">
                 <div className="relative p-3 flex items-center justify-center">
                   <img
-                    src="http://magento2.magentech.com/themes/sm_shopping/pub/media/catalog/product/cache/e9bcb962a9408957578e6af2c852a0c4/e/l/elec-8_1.jpg"
+                    src="http://magento2.magentech.com/themes/sm_shopping/pub/media/catalog/product/cache/e9bcb962a9408957578e6af2c852a0c4/h/e/hea-10_3.jpg"
                     alt=""
                     className="min-w-[180px]"
                   />
@@ -152,8 +152,8 @@ const HealthBeautyDoubleSlider = () => {
                 </div>
                 <div className="mt-2">
                   <img className="w-[60px] ml-[-5px]" src={starImg} alt="" />
-                  <p className="text-[14px] font-semibold">
-                    HP Elite Computer C2D...
+                  <p className="text-[14px] font-semibold my-[6px]">
+                    Beauty without Cruelty...
                   </p>
                   <h3 className="text-[18px] font-bold text-special">$1.60</h3>
                   <span className="text-[12px] text-opacity">
@@ -172,7 +172,7 @@ const HealthBeautyDoubleSlider = () => {
               <div className="bg-white mb-5 col-span-1 w-full slideOverlay p-3 flex flex-col xl:flex-row gap-2">
               <div className="relative p-3 flex items-center justify-center">
                   <img
-                    src="http://magento2.magentech.com/themes/sm_shopping/pub/media/catalog/product/cache/e9bcb962a9408957578e6af2c852a0c4/e/l/elec-13_4.jpg"
+                    src="http://magento2.magentech.com/themes/sm_shopping/pub/media/catalog/product/cache/e9bcb962a9408957578e6af2c852a0c4/h/e/hea-7_2.jpg"
                     alt=""
                     className="min-w-[180px]"
                   />
@@ -191,8 +191,8 @@ const HealthBeautyDoubleSlider = () => {
                 </div>
                 <div className="mt-2">
                   <img className="w-[60px] ml-[-5px]" src={starImg} alt="" />
-                  <p className="text-[14px] font-semibold">
-                    HP Elite Computer C2D...
+                  <p className="text-[14px] font-semibold my-[6px]">
+                    Beauty without Cruelty...
                   </p>
                   <h3 className="text-[18px] font-bold text-special">$1.60</h3>
                   <span className="text-[12px] text-opacity">
@@ -216,7 +216,7 @@ const HealthBeautyDoubleSlider = () => {
             <div className="bg-white mb-5 col-span-1 w-full slideOverlay p-3 flex flex-col xl:flex-row gap-2">
             <div className="relative p-3 flex items-center justify-center">
                   <img
-                    src="http://magento2.magentech.com/themes/sm_shopping/pub/media/catalog/product/cache/e9bcb962a9408957578e6af2c852a0c4/e/l/elec-12_4.jpg"
+                    src="http://magento2.magentech.com/themes/sm_shopping/pub/media/catalog/product/cache/e9bcb962a9408957578e6af2c852a0c4/h/e/hea-1.jpg"
                     alt=""
                     className="min-w-[180px]"
                   />
@@ -235,8 +235,8 @@ const HealthBeautyDoubleSlider = () => {
                 </div>
                 <div className="mt-2">
                   <img className="w-[60px] ml-[-5px]" src={starImg} alt="" />
-                  <p className="text-[14px] font-semibold">
-                    HP Elite Computer C2D...
+                  <p className="text-[14px] font-semibold my-[6px]">
+                    Beauty without Cruelty...
                   </p>
                   <h3 className="text-[18px] font-bold text-special">$1.60</h3>
                   <span className="text-[12px] text-opacity">
@@ -254,7 +254,7 @@ const HealthBeautyDoubleSlider = () => {
               <div className="bg-white mb-5 col-span-1 w-full slideOverlay p-3 flex flex-col xl:flex-row gap-2">
               <div className="relative p-3 flex items-center justify-center">
                   <img
-                    src="http://magento2.magentech.com/themes/sm_shopping/pub/media/catalog/product/cache/e9bcb962a9408957578e6af2c852a0c4/e/l/elec-19_1.jpg"
+                    src="http://magento2.magentech.com/themes/sm_shopping/pub/media/catalog/product/cache/e9bcb962a9408957578e6af2c852a0c4/h/e/hea-11_3.jpg"
                     alt=""
                     className="min-w-[180px]"
                   />
@@ -273,8 +273,8 @@ const HealthBeautyDoubleSlider = () => {
                 </div>
                 <div className="mt-2">
                   <img className="w-[60px] ml-[-5px]" src={starImg} alt="" />
-                  <p className="text-[14px] font-semibold">
-                    HP Elite Computer C2D...
+                  <p className="text-[14px] font-semibold my-[6px]">
+                    Beauty without Cruelty...
                   </p>
                   <h3 className="text-[18px] font-bold text-special">$1.60</h3>
                   <span className="text-[12px] text-opacity">
@@ -296,7 +296,7 @@ const HealthBeautyDoubleSlider = () => {
             <div className="bg-white mb-5 col-span-1 w-full slideOverlay p-3 flex flex-col xl:flex-row gap-2">
             <div className="relative p-3 flex items-center justify-center">
                   <img
-                    src="http://magento2.magentech.com/themes/sm_shopping/pub/media/catalog/product/cache/e9bcb962a9408957578e6af2c852a0c4/0/5/05_1.jpg"
+                    src="http://magento2.magentech.com/themes/sm_shopping/pub/media/catalog/product/cache/e9bcb962a9408957578e6af2c852a0c4/h/e/hea-4_2.jpg"
                     alt=""
                     className="min-w-[180px]"
                   />
@@ -315,8 +315,8 @@ const HealthBeautyDoubleSlider = () => {
                 </div>
                 <div className="mt-2">
                   <img className="w-[60px] ml-[-5px]" src={starImg} alt="" />
-                  <p className="text-[14px] font-semibold">
-                    HP Elite Computer C2D...
+                  <p className="text-[14px] font-semibold my-[6px]">
+                    Beauty without Cruelty...
                   </p>
                   <h3 className="text-[18px] font-bold text-special">$1.60</h3>
                   <span className="text-[12px] text-opacity">
@@ -333,7 +333,7 @@ const HealthBeautyDoubleSlider = () => {
               <div className="bg-white mb-5 col-span-1 w-full slideOverlay p-3 flex flex-col xl:flex-row gap-2">
               <div className="relative p-3 flex items-center justify-center">
                   <img
-                    src="http://magento2.magentech.com/themes/sm_shopping/pub/media/catalog/product/cache/e9bcb962a9408957578e6af2c852a0c4/e/l/elec-10_3.jpg"
+                    src="http://magento2.magentech.com/themes/sm_shopping/pub/media/catalog/product/cache/e9bcb962a9408957578e6af2c852a0c4/h/e/hea-7_2.jpg"
                     alt=""
                     className="min-w-[180px]"
                   />
@@ -352,8 +352,8 @@ const HealthBeautyDoubleSlider = () => {
                 </div>
                 <div className="mt-2">
                   <img className="w-[60px] ml-[-5px]" src={starImg} alt="" />
-                  <p className="text-[14px] font-semibold">
-                    HP Elite Computer C2D...
+                  <p className="text-[14px] font-semibold my-[6px]">
+                    Beauty without Cruelty...
                   </p>
                   <h3 className="text-[18px] font-bold text-special">$1.60</h3>
                   <span className="text-[12px] text-opacity">
