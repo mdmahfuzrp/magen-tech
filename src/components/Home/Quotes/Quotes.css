@@ -17,7 +17,7 @@
   .swiper-button-disabled{
     display: none;
   }
-  #bestSeller .swiper-slide {
+  #quotes .swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
@@ -26,7 +26,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 100px;
   }
   .swiper:hover > .swiper-button-prev, .swiper:hover > .swiper-button-next, .swiper:hover > .swiper-button-disabled{
     opacity: 1;
@@ -38,19 +37,18 @@
     object-fit: cover;
   }
 
-  #bestSeller .swiper-pagination{
+  #quotes .swiper-pagination{
     position: absolute;
-    top: 42px;
-    left: 40%;
+    bottom: 0px;
   }
-  #bestSeller .swiper-pagination-bullet{
+  #quotes .swiper-pagination-bullet{
     width: 8px;
     height: 8px;
     border-radius: 5px;
     background-color: rgb(137, 135, 135);
     opacity: 1;
   }
-  #bestSeller .swiper-pagination-bullet-active{
+  #quotes .swiper-pagination-bullet-active{
     background-color: #ff5c00;
     width: 25px;
     transition: .2s ease-in-out;

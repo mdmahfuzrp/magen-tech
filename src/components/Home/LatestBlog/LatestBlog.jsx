@@ -13,9 +13,6 @@ import { Pagination } from "swiper/modules";
 // Section imported
 import SectionHeader from "../../../SharedComponents/SectionHeader";
 
-// custom css connection
-import "./LatestBlog.css";
-
 const bestSellerData = [
   {
     id: 1,
@@ -69,7 +66,7 @@ const LatestBlog = () => {
                     </span>
                     {data?.date}
                   </h2>
-                  <h2 className="text-[14px] !capitalize text-primary font-semibold">
+                  <h2 className="text-[14px] !capitalize text-opacity font-medium">
                     {data?.name}
                   </h2>
                 </div>
