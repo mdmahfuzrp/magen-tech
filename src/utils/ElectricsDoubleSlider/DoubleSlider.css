@@ -1,0 +1,14 @@
+.doubleOverlayBtn{
+    opacity: 0;
+    transition: .2s ease-in-out;
+}
+.doubleSlideOverlay{
+opacity: 0;
+transition: .2s ease-in-out;
+}
+.slideOverlay:hover .doubleSlideOverlay{
+    opacity: 1;
+}
+.slideOverlay:hover .doubleOverlayBtn{
+    opacity: 1;
+}

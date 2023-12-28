@@ -1,6 +1,6 @@
 import React from "react";
 import SectionHeader from "../../../SharedComponents/SectionHeader";
-import ElectronicsProduct from "../Electronics/ElectronicsProduct";
+import FashionDoubleSlider from "../../../utils/FashionDoubleSlider/FashionDoubleSlider";
 
 const Fashion = () => {
   const options = ["Dresses", "Jumpsuits", "T-shirts", "Bags", "Shoes"];
@@ -9,7 +9,7 @@ const Fashion = () => {
     <div className="w-full">
       <SectionHeader options={options} title="fashion" background={true} />
       <div>
-        <ElectronicsProduct />
+        <FashionDoubleSlider />
       </div>
     </div>
   );

@@ -9,8 +9,8 @@ import Banner11 from '../../../assets/images/banner-11.jpg';
 
 const BottomSections = () => {
     return (
-        <div className="max-w-[1500px] px-5 sm:px-8 grid grid-cols-1 gap-6 md:grid-cols-7">
-            <div className="col-span-full md:col-span-5 bg-slate-200">
+        <div className="max-w-[1500px] px-5 sm:px-8 grid grid-cols-1 gap-6 lg:grid-cols-7">
+            <div className="col-span-full lg:col-span-5 bg-slate-200">
                 <Electronics />
                 <BannerAd img={Banner9} />
                 <Fashion />
@@ -18,8 +18,7 @@ const BottomSections = () => {
                 <HealthBeauty />
                 <BannerAd img={Banner11} />
             </div>
-
-            <div className="col-span-full md:col-span-2 bg-slate-200">h2</div>
+            <div className="col-span-full lg:col-span-2 bg-slate-200">h2</div>
         </div>
     );
 };
