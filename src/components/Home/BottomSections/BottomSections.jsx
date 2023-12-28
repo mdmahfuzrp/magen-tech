@@ -10,6 +10,7 @@ import BestSeller from "../BestSeller/BestSeller";
 
 // images
 import banner12 from "../../../assets/images/banner-12.jpg";
+import LatestBlog from "../LatestBlog/LatestBlog";
 
 const BottomSections = () => {
   return (
@@ -28,6 +29,7 @@ const BottomSections = () => {
           <div className="absolute w-full h-full hover:bg-[#ffffff33] top-0 left-0 right-0 bottom-0"></div>
         </div>
         <BestSeller />
+        <LatestBlog />
       </div>
     </div>
   );
