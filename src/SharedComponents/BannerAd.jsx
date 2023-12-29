@@ -1,5 +1,4 @@
-
-const BannerAd = ({img}) => {
+const BannerAd = ({ img }) => {
   return (
     <div className="my-10 mt-5">
       <div className="relative cursor-pointer">
