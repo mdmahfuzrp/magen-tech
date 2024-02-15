@@ -4,7 +4,7 @@ import DynamicProduct from "./DynamicProduct";
 import { productData } from "./bundleData";
 const BundleProducts = () => {
   return (
-    <div className="max-w-[1500px] px-5 sm:px-8">
+    <div className="max-w-[1500px] mx-auto px-5 sm:px-8">
       <div className={`flex border-b-2 my-6 mt-8 items-center justify-between`}>
         <div className="w-fit relative">
           <h1

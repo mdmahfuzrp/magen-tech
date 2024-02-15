@@ -3,7 +3,7 @@ import { HiShoppingBag } from "react-icons/hi";
 import {TiThMenu } from 'react-icons/ti'
 const TopNavbar = () => {
   return (
-    <div className="max-w-[1500px] lg:px-8 pt-7 flex flex-col lg:flex-row gap-4 items-center justify-between">
+    <div className="max-w-[1500px] mx-auto lg:px-8 pt-7 flex flex-col lg:flex-row gap-4 items-center justify-between">
       <div className="mb-3 lg:mb-0">
         <Link to="/">
           <img

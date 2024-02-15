@@ -1,6 +1,6 @@
 const BestSellerAd = () => {
   return (
-    <div className="max-w-[1500px] my-12  px-5 sm:px-8">
+    <div className="max-w-[1500px] mx-auto  my-12  px-5 sm:px-8">
       <div className="relative cursor-pointer">
         <img
           src="http://magento2.magentech.com/themes/sm_shopping/pub/media/wysiwyg/banner/banner-8.jpg"

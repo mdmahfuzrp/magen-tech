@@ -18,8 +18,11 @@ const allBrands = [
 ];
 const HotBrands = () => {
     const options = [];
+    const hello = () =>{
+      console.log("hello")
+    }
   return (
-    <div className="max-w-[1500px] px-5 sm:px-8">
+    <div className="max-w-[1500px] mx-auto px-5 sm:px-8">
       <SectionHeader options={options} title="hot brands" />
 
       <div id="hotBrands" className="border-l-0 border max-h-[110px]

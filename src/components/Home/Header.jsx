@@ -5,7 +5,7 @@ import rightBottomImg from "../../assets/images/banner-4.jpg";
 import bottomImg from "../../assets/images/banner-5.jpg";
 const Header = () => {
   return (
-    <div className="max-w-[1500px] px-5 lg:px-8 pt-[12px]">
+    <div className="max-w-[1500px] mx-auto px-5 lg:px-8 pt-[12px]">
       <div className="grid grid-cols-1 gap-y-3 md:gap-x-3 md:grid-cols-4">
         {/* Slider */}
         <div className="col-span-3">

@@ -16,7 +16,7 @@ import CallUs from "../CallUs/CallUs";
 
 const BottomSections = () => {
   return (
-    <div className="max-w-[1500px] mt-[-30px] px-5 sm:px-8 grid grid-cols-1 gap-6 lg:grid-cols-7">
+    <div className="max-w-[1500px] mx-auto mt-[-30px] px-5 sm:px-8 grid grid-cols-1 gap-6 lg:grid-cols-7">
       <div className="col-span-full lg:col-span-5 ">
         <Electronics />
         <BannerAd img={Banner9} />

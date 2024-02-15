@@ -12,7 +12,7 @@ const FlashSale = () => {
     "Electronics",
   ];
   return (
-    <div className="max-w-[1500px] px-5 sm:px-8">
+    <div className="max-w-[1500px] mx-auto px-5 sm:px-8">
       <SectionHeader options={options} title="Flash Sale" />
       <MultiSlider countdown={true} data={productData} responsive={responsive} />
     </div>

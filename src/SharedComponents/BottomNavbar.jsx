@@ -7,7 +7,7 @@ import {FaSquarePhone } from 'react-icons/fa6';
 
 const BottomNavbar = () => {
   return (
-    <div className="max-w-[1500px] mt-7 hidden md:flex items-center justify-between px-6 lg:px-8 gap-2">
+    <div className="max-w-[1500px] mx-auto mt-7 hidden md:flex items-center justify-between px-6 lg:px-8 gap-2">
       <div id="categories" className="w-[250px] lg:w-[220px] cursor-pointer duration-200 relative p-2 px-4 bg-slate-50 border rounded-[3px]">
         <div className="flex items-center w-full gap-1 justify-between">
           <div className="flex items-center gap-1">

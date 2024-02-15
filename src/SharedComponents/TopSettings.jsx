@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const TopSettings = () => {
   return (
     <div className="border-b border-opacity-15">
-      <div className="max-w-[1500px] px-5 sm:px-8 flex items-center justify-between">
+      <div className="max-w-[1500px] mx-auto px-5 sm:px-8 flex items-center justify-between">
         <div className="flex relative items-center gap-8">
           <div id="language" className="flex py-[10px] cursor-pointer 
            items-center gap-[2.5rem]">

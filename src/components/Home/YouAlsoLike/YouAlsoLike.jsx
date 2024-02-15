@@ -12,7 +12,7 @@ const YouAlsoLike = () => {
     "Electronics",
   ];
   return (
-    <div className="max-w-[1500px] px-5 sm:px-8">
+    <div className="max-w-[1500px] mx-auto px-5 sm:px-8">
       <SectionHeader options={options} title="you may also like" />
       <MultiSlider countdown={false} data={youAlsoLikeData} responsive={responsive} />
     </div>

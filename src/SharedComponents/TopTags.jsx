@@ -1,7 +1,7 @@
 const TopTags = () => {
   return (
     <div className="bg-gray-100 mt-4 py-[6px]">
-      <div className="max-w-[1500px] px-5 sm:px-8 text-[12px] text-opacity flex items-center  w-full">
+      <div className="max-w-[1500px] mx-auto px-5 sm:px-8 text-[12px] text-opacity flex items-center  w-full">
         
         <div className="flex-container">
             
